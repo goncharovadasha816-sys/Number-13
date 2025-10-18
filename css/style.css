@@ -1,0 +1,171 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.head {
+    padding: 20px 0;
+    background: #fff;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.logo {
+    float: left;
+    font-size: 34px;
+    letter-spacing: 2px;
+    color: #060c31;
+    font-weight: 400;
+    font-family: "Crete Round";
+    line-height: 40px;
+}
+
+
+.contacts {
+    float: right;
+    margin-left: 30px;
+    font-size: 13px;
+    line-height: 40px;
+    color: #060c31;
+    font-weight: 700;
+    font-family: "Lato";
+}
+
+
+.button {
+    float: right;
+    margin-left: 30px;
+}
+
+.b2 {
+    background-color: #fff;
+    color: #060c31;
+    padding: 10px 20px;
+    border: 2px solid #ffb0b1;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Lato";
+    line-height: 20px;
+}
+
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+
+.content-wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.text_sec {
+    float: left;
+    width: 45%;
+    padding-right: 50px;
+}
+
+.title {
+    font-size: 58px;
+    letter-spacing: 3px;
+    line-height: 64px;
+    color: #060c31;
+    font-weight: 400;
+    font-family: "Crete Round";
+    margin-bottom: 30px;
+}
+
+.text {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #060c31;
+    font-weight: 400;
+    font-family: "Lato";
+    margin-bottom: 40px;
+}
+
+
+.main-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-pr {
+    background-color: #4a6cf7;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Lato";
+}
+
+.btn-sec {
+    background-color: #fff;
+    color: #060c31;
+    padding: 15px 30px;
+    border: 2px solid #ffb0b1;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Lato";
+}
+
+
+.image_sec {
+    float: right;
+    width: 50%;
+}
+
+.image_sec img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+}
+
+
+.bottom-sec {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.images-wrapper {
+    float: right;
+    display: flex;
+    gap: 104px;
+    margin-right: [такой же отступ как у кнопки в header];
+}
+
+.images-wrapper img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
